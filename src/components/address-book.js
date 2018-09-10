@@ -26,14 +26,14 @@ export default class AddressBook extends React.Component {
         }
     }
     render() {
-
+        console.log(this.state.props)
         let contacts = this.state.contacts.map((contact, index) =>
-            <div>{contact.name}</div>
+            <Contact key={index} value={...contact} />
         )
 
         return (
             <div className="address-book">
-                {Contact}
+                {contacts}
             </div>
         )
     }
