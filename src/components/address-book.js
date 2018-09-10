@@ -6,4 +6,9 @@ import Contact from './contact';
 
 export default class AddressBook extends React.Component {
     
+    //render an array Contact components corresponding to each person
+    //this.state.contacts
+    render() {
+        
+    }
 }
